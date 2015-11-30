@@ -40,7 +40,7 @@ void loop() {
    digitalWrite(13, HIGH);   // X turn the LED on (HIGH is the voltage level)
   delay(1000);              // wait for a second
   digitalWrite(13, LOW);    // turn the LED off by making the voltage LOW
-  delay(2000);
+  delay(2000);              // artificially long so you can see the difference between the letters
   
   
   
@@ -62,9 +62,9 @@ void loop() {
   delay(500);              // wait for a second
   
    digitalWrite(13, HIGH);   // A turn the LED on (HIGH is the voltage level)
-  delay(500);              // wait for a second
+  delay(1000);              // wait for a second
   digitalWrite(13, LOW);    // turn the LED off by making the voltage LOW
-  delay(1000);
+  delay(2000);
   
   
   
